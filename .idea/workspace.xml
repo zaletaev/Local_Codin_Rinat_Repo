@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30c08971-172a-4a4e-b585-10431afbf500" name="Default Changelist" comment="" />
+    <list default="true" id="ce7e795f-2825-4c6e-a780-bb6a4bb9b916" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/pageobjects/registerPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/specs/Register.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/QA6_Local_Coding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QA6_Local_Coding.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pageobjects/login.page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pageobjects/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/BasePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pageobjects/secure.page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/example.e2e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CC" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -41,6 +54,28 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aleksandra\Google Drive\PASV\QA6_Local_Coding\test\pageobjects" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -78,30 +113,31 @@
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
     <state x="333" y="145" key="CommitChangelistDialog2/0.40.3440.1400@0.40.3440.1400" timestamp="1595000254453" />
-    <state width="777" height="400" key="GridCell.Tab.0.bottom" timestamp="1594999908929">
+    <state width="1495" height="281" key="GridCell.Tab.0.bottom" timestamp="1595006307178">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
     <state width="1579" height="242" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594997486051" />
-    <state width="777" height="400" key="GridCell.Tab.0.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1594999908929" />
-    <state width="777" height="400" key="GridCell.Tab.0.center" timestamp="1594999908927">
+    <state width="1495" height="281" key="GridCell.Tab.0.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1595006307178" />
+    <state width="1495" height="281" key="GridCell.Tab.0.center" timestamp="1595006307178">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
     <state width="1579" height="242" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1594997486051" />
-    <state width="777" height="400" key="GridCell.Tab.0.center/0.40.3440.1400@0.40.3440.1400" timestamp="1594999908927" />
-    <state width="777" height="400" key="GridCell.Tab.0.left" timestamp="1594999908924">
+    <state width="1495" height="281" key="GridCell.Tab.0.center/0.40.3440.1400@0.40.3440.1400" timestamp="1595006307178" />
+    <state width="1495" height="281" key="GridCell.Tab.0.left" timestamp="1595006307177">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
     <state width="1579" height="242" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1594997486051" />
-    <state width="777" height="400" key="GridCell.Tab.0.left/0.40.3440.1400@0.40.3440.1400" timestamp="1594999908924" />
-    <state width="777" height="400" key="GridCell.Tab.0.right" timestamp="1594999908928">
+    <state width="1495" height="281" key="GridCell.Tab.0.left/0.40.3440.1400@0.40.3440.1400" timestamp="1595006307177" />
+    <state width="1495" height="281" key="GridCell.Tab.0.right" timestamp="1595006307178">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
     <state width="1579" height="242" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1594997486051" />
-    <state width="777" height="400" key="GridCell.Tab.0.right/0.40.3440.1400@0.40.3440.1400" timestamp="1594999908928" />
-    <state x="301" y="74" key="SettingsEditor" timestamp="1594999081840">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1495" height="281" key="GridCell.Tab.0.right/0.40.3440.1400@0.40.3440.1400" timestamp="1595006307178" />
+    <state x="647" y="160" key="SettingsEditor" timestamp="1595005732104">
+      <screen x="0" y="40" width="3440" height="1400" />
     </state>
     <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1594999081840" />
+    <state x="647" y="160" key="SettingsEditor/0.40.3440.1400@0.40.3440.1400" timestamp="1595005732104" />
     <state x="843" y="304" key="Vcs.Push.Dialog.v2" timestamp="1595000297000">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
