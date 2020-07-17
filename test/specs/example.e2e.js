@@ -1,4 +1,4 @@
-const LoginPage = require('..\pageobjects/login.page');
+import LoginPage from '../pageobjects/login.page';
 const SecurePage = require('..\pageobjects/secure.page');
 
 describe('My Login application', () => {
